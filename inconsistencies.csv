@@ -1,6 +1,6 @@
 Field,Value
 1) Presence Condition:,(!((color == white) || (color == red))) && (color != black) && (color == black)
-   Assignments:,"[color != ""black"", color == ""black"", ~color == ""red""]"
+   Assignments:,"[color == ""black"", color != ""black"", ~color == ""red""]"
    Source Code location:,"./sample_app/car_app.py
 : 38"
    Inconsistency Type:,Dead Code
