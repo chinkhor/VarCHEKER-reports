@@ -1,0 +1,11 @@
+1) Presence Condition:,(!((color == white) || (color == red))) && (color != black) && (color == black)
+   Assignments:,"[color == ""black"", color != ""black"", ~color == ""red""]"
+   Source Code location:,"./sample_app/car_app.py
+: 38"
+   Cause:,Dead Code
+2) Presence Condition:,(transmission == automatic) && !sunroof
+   Assignments:,"[sunroof == False, transmission == ""automatic""]"
+   Source Code location:,"./sample_app/car_app.py
+: 18"
+   Conflicted Requirement ID:,['ID-9']
+   Conflicted Requirement Sentence:,"Implies(transmission == ""automatic"", sunroof)"
