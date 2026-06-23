@@ -1,9 +1,9 @@
 0_Statistics,Value
 Required Features in Source Code,4
-Required Features NOT in Source Code,1
-Total Required Features,5
-Textual Requirements NOT Implemented in Source Code,1
-Total Textual Requirements,10
+Required Features NOT in Source Code,0
+Total Required Features,4
+Textual Requirements NOT Implemented in Source Code,0
+Total Textual Requirements,9
 Features in Source Code Specified in Requirements,4
 Features in Source Code NOT Specified in Requirements,0
 Total Features in Source Code,4
@@ -14,4 +14,4 @@ Total Lines of Code Analyzed,60
 Total Files Processed,1
 Total Minimal Set of Configurations,4
 Total Identified Inconsistencies,0
-Are Variability Requirements and Source Code Consistent?,No
+Are Variability Requirements and Source Code Consistent?,Yes
